@@ -9,7 +9,8 @@ public class hello {
         double z = 56;
         double sum = x * y * z;
         double power = Math.pow(sum, y);
+        double mod = z % x;
 
-        System.out.println(power);
+        System.out.println(mod);
     }
 }
