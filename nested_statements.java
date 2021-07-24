@@ -13,7 +13,15 @@ public class nested_statements {
         int age = Integer.parseInt(s);
 
         if (age >= 13) {
-            System.out.println("Go ahead have fun!");
+            System.out.print("Input your height in inches: ");
+            String height_input = sc.nextLine();
+            int height = Integer.parseInt(height_input);
+            if (height >= 56) {
+                System.out.println("Go ahead, enjoy the ride!");
+            }
+            else {
+                System.out.println("Sorry you must be at least 56 inches to ride.");
+            } 
         }
         else {
             System.out.println("Sorry you need to be at least 13 to ride!");
