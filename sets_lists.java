@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -16,6 +17,14 @@ public class sets_lists {
     
         int x = t.size();
 
-        System.out.println(x);
+        ArrayList<Integer> arr = new ArrayList<Integer>();
+        arr.add(1);
+        arr.add(5);
+        arr.add(6);
+        arr.remove(0);
+        arr.get(1);
+        arr.set(1, 8);
+
+        System.out.println(arr);
     }
 }
