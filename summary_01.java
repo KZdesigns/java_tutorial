@@ -28,6 +28,7 @@ public class summary_01 {
         System.out.println(color);
         System.out.println();
 
+
         Scanner sc = new Scanner(System.in);
         
         String player_guess = sc.nextLine();
