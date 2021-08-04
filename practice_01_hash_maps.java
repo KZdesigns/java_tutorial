@@ -16,14 +16,12 @@ public class practice_01_hash_maps {
                 char key = sentence.charAt(i);
                 int value = (int) m.get(key);
                 int new_value = value + 1;
-                m.put(sentence.charAt(i), new_value);
+                m.put(key, new_value);
             } else {
                 m.put(sentence.charAt(i), 1);
             }
         }
 
         System.out.println(m);
-        // System.out.println(sentence.charAt(0));
-
     }
 }
