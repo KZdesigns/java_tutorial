@@ -3,8 +3,8 @@
  */
 public class dog {
 
-    private String name;
-    private int age;
+    public String name;
+    public int age;
 
     public dog(String name, int age) {
         this.name = name;
